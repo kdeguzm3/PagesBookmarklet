@@ -1,3 +1,8 @@
 <html>
-  <body><script src = "index.js"></script></body>
+  <body>
+    <h1>Welcome</h1>
+    <p>Right click the following link and add bookmark</p>
+    <a href = "javascript: let vpath = location.pathname.split("/"); vpath = `${vpath[1]}.github.io/${vpath.splice(2)}`; location.replace(`http://${vpath}`)"> Get Github Pages </a>
+    <p>This bookmarklet can be used in your repo page to open it in Github pages, if it is set up</p>
+  </body>
 </html>

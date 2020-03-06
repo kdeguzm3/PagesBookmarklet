@@ -1,9 +1,9 @@
-document.querySelector("#copier").onclick = function(event) {
+document.querySelector("#copier").addEventListener("click", function(event) {
   event.preventDefault();
   document.querySelector("#bookmarklet").select();
   document.execCommand('copy');
   document.querySelector("#copier").textContent = "copied!";
-}
+});
 
 
 /*

@@ -3,8 +3,8 @@
     <h1>Welcome</h1>
     <p>Copy the following code:</p>
     <textarea id="bookmarklet" cols ="80">javascript: let vpath = location.pathname.split("/"); vpath = `${vpath[1]}.github.io/${vpath.splice(2).join("/")}`; location.replace(`http://${vpath}`)</textarea>
-    <a href="#" id="copier">Copy to Clipboard</a>
-    <!-- <p>Add a new bookmark,</p> -->
+    <!-- <a href="#" id="copier">Copy to Clipboard</a> -->
+    <p>Add a new bookmark,</p>
     <p>paste the code where the URL of the bookmark would go.</p>
     <h4>This bookmarklet can be used in your repo page to open it in Github pages, if it is set up</h4>
     <script src="./index.js"></script>

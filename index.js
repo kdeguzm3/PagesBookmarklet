@@ -1,5 +1,5 @@
-document.querySelector("#copier").onclick = () => {
-  
+document.querySelector("#copier").onclick = function(event) {
+  event.preventDefault();
   document.querySelector("#bookmarklet").select();
   document.execCommand('copy');
   document.querySelector("#copier").textContent = "copied!";

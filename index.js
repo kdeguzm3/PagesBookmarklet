@@ -1,6 +1,6 @@
-document.getElementById("#copier").innerHTML =" JS loaded ";
 
-/*
+/*document.getElementById("#copier").innerHTML =" JS loaded ";
+
 This page is not valid javascript, it only shows what is linked in the bookmark href in index.html
 
 

@@ -1,10 +1,4 @@
-document.querySelector("#copier").addEventListener("click", function(event) {
-  event.preventDefault();
-  document.querySelector("#bookmarklet").select();
-  document.execCommand('copy');
-  document.querySelector("#copier").textContent = "copied!";
-});
-
+document.getElementById("#copier").textContent =" JS loaded ";
 
 /*
 This page is not valid javascript, it only shows what is linked in the bookmark href in index.html
